@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Raleway"; src: url('Raleway-Regular.ttf'); 
+} 
+
+h1{
+	color: #1c2833;
+	text-align: center;
+	font-family: "Raleway";
+	font-size: 100px;
+	font-weight: bold;
+}
+
+
+
+/*menu*/
+
+.nav a{
+	display: inline-block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    color: gray;
+}
+
+
+.nav{
+	padding-bottom: 10px;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav li~li{
+	border-left: 2px solid #000000;
+}
+
+/*menu*/
+
+.header{
+	line-height: 10%;
+}
+
+.dvlps{
+	text-align: center;
+}
+
+.msg{
+	height: 100px;
+	width: 200px;
+}
+
+/*images*/
+.main{
+	height: 675px;
+	width: 1422px;
+}
+.top{
+	height: 675px;
+	width: 1422px;
+}
+}
+/*
+.wave{
+	height: 675px;
+	width: 1422px;
+	}
+.fly{
+	height: 675px;
+	width: 1422px;
+	}*/
+/*images*/
+
+/*transition*/
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+  @keyframes cfFadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf img.top {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+}
+/*
+#cf img.wave {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+}
+#cf img.fly {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+}
+*/
+/*transition*/

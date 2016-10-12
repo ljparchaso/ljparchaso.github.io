@@ -1,0 +1,48 @@
+.page-header{
+	font-size: 100px;
+	padding-left: 300px;
+	margin-bottom: 2px;
+
+}
+
+.animals{
+	padding-left: 300px;
+	display: inline;
+	font-size: 35px;
+
+}
+
+/*menu*/
+
+.nav a{
+	display: inline-block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    color: gray;
+}
+
+
+
+.nav li{
+    display:inline;
+}
+
+.nav li~li{
+	border-left: 2px solid #000000;
+}
+
+/*menu*/
+
+
+
+.people{
+	height: 675px;
+	width: 1422px;
+	text-align: center;
+}
